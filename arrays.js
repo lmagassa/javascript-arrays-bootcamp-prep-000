@@ -5,7 +5,6 @@ function addElementToBeginningOfArray(theArray, elementToAdd) {
   //theArray.unshift(elementToAdd)
   var spreadArray = [elementToAdd, ...theArray]
   return spreadArray
-  
 }
 
 
@@ -14,3 +13,4 @@ function destructivelyAddElementToBeginningOfArray(theDestructiveArray, destruct
    theDestructiveArray.unshift(destructiveElementToAdd)
     return theDestructiveArray
 }
+
