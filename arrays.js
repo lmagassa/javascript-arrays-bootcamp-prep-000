@@ -10,7 +10,7 @@ function addElementToBeginningOfArray(theArray, elementToAdd) {
 
 
 function destructivelyAddElementToBeginningOfArray(theArray, elementToAdd) { 
-    destructiveSpreadArray = theArray.unshift(elementToAdd)
+    destructiveArray = theArray.unshift(elementToAdd)
     //var destructiveSpreadArray = [elementToAdd,...theArray]
-    return destructiveSpreadArray
+    return destructiveArray
 }
