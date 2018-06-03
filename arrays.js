@@ -38,7 +38,7 @@ function removeElementFromBeginningOfArray(theNiceRemoveArray) {
   return sliceResult
 }
 
-function function destructivelyRemoveElementFromEndOfArray(meanRemoveArray) {
+function destructivelyRemoveElementFromEndOfArray(meanRemoveArray) {
   meanRemoveArray.pop()
   return meanRemoveArray
 }
