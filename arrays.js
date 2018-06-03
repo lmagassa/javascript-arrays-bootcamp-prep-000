@@ -14,3 +14,7 @@ function destructivelyAddElementToBeginningOfArray(theDestructiveArray, destruct
     return theDestructiveArray
 }
 
+function addElementToEndOfArray(theAddArray, elementAddToAdd) {
+  
+}
+
