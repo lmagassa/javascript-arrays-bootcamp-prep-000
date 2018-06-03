@@ -44,6 +44,6 @@ function destructivelyRemoveElementFromEndOfArray(meanRemoveArray) {
 }
 
 function removeElementFromEndOfArray(nameRemoveArray) {
-  var sliceResult = nameRemoveArray.slice(-2)
+  var sliceResult = nameRemoveArray.slice(2)
   return sliceResult
 }
