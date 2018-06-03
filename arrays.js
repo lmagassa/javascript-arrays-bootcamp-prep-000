@@ -11,7 +11,5 @@ function addElementToBeginningOfArray(theArray, elementToAdd) {
 
 function destructivelyAddElementToBeginningOfArray(theDestructiveArray, destructiveElementToAdd) { 
    [destructiveElementToAdd,...theDestructiveArray]
-    return destructivelyAddElementToBeginningOfArray
-}
-  
+    return theDestructiveArray
 }
