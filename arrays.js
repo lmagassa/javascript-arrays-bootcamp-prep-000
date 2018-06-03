@@ -31,3 +31,8 @@ function accessElementInArray(theArray, theIndex) {
 function destructivelyRemoveElementFromBeginningOfArray(theRemoveArray) {
   theRemoveArray.shift()
 }
+
+function removeElementFromBeginningOfArray(theNiceRemoveArray) {
+  var sliceResult = theNiceRemoveArray.slice(1)
+  return sliceResult
+}
