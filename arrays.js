@@ -42,3 +42,8 @@ function destructivelyRemoveElementFromEndOfArray(meanRemoveArray) {
   meanRemoveArray.pop()
   return meanRemoveArray
 }
+
+function removeElementFromEndOfArray(nameRemoveArray) {
+  var = sliceResult = nameRemoveArray.slice(-1)
+  return sliceResult
+}
