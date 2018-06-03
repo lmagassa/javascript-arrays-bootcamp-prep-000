@@ -20,5 +20,6 @@ function addElementToEndOfArray(theAddArray, elementAddToAdd) {
 }
 
 function destructivelyAddElementToEndOfArray(theDestructiveAddArray, destructiveElementAddToAdd) {
-  
+  theDestructiveAddArray.push(destructiveElementAddToAdd)
+  return theDestructiveAddArray
 }
