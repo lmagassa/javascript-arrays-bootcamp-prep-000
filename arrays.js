@@ -18,3 +18,6 @@ function addElementToEndOfArray(theAddArray, elementAddToAdd) {
   
 }
 
+function destructivelyAddElementToEndOfArray(theDestructiveAddArray, destructiveElementAddToAdd) {
+  
+}
