@@ -15,7 +15,8 @@ function destructivelyAddElementToBeginningOfArray(theDestructiveArray, destruct
 }
 
 function addElementToEndOfArray(theAddArray, elementAddToAdd) {
-  
+  var spreadAddArray = [...theAddArray, elementAddToAdd]
+  return spreadAddArray
 }
 
 function destructivelyAddElementToEndOfArray(theDestructiveAddArray, destructiveElementAddToAdd) {
