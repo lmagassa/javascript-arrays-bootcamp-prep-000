@@ -28,9 +28,10 @@ function accessElementInArray(theArray, theIndex) {
   return theArray[theIndex]
 }
 
-//function destructivelyRemoveElementFromBeginningOfArray(theRemoveArray) {
-//  theRemoveArray.shift()
-//}
+function destructivelyRemoveElementFromBeginningOfArray(theRemoveArray) {
+  theRemoveArray.shift()
+  return theRemoveArray
+}
 
 function removeElementFromBeginningOfArray(theNiceRemoveArray) {
   var sliceResult = theNiceRemoveArray.slice(1)
