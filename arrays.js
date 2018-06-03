@@ -27,7 +27,7 @@ function destructivelyAddElementToEndOfArray(theDestructiveAddArray, destructive
 function accessElementInArray(theArray, theIndex) {
   return theArray[theIndex]
 }
-function destructivelyRemoveElementFromEndOfArray
+
 function destructivelyRemoveElementFromBeginningOfArray(theRemoveArray) {
   theRemoveArray.shift()
   return theRemoveArray
@@ -36,4 +36,9 @@ function destructivelyRemoveElementFromBeginningOfArray(theRemoveArray) {
 function removeElementFromBeginningOfArray(theNiceRemoveArray) {
   var sliceResult = theNiceRemoveArray.slice(1)
   return sliceResult
+}
+
+function function destructivelyRemoveElementFromEndOfArray(meanRemoveArray) {
+  meanRemoveArray.pop()
+  return meanRemoveArray
 }
